@@ -1,2 +1,2 @@
-rvm use 1.9.2@vim-ruby-refactoring --create
+rvm use 2.3.0
 
