@@ -47,6 +47,13 @@ I will go with it (clone at your own risk).
     :vnoremap <leader>rriv :RRenameInstanceVariable<cr>
     :vnoremap <leader>rem  :RExtractMethod<cr>
 
+
+## Extra config
+
+    " Parenless Style on Extract
+    let g:ruby_refactoring_sans_superfluous_syntax  = 1
+
+
 Additional usage examples (thanks Justin!):
 [http://justinram.wordpress.com/2010/12/30/vim-ruby-refactoring-series/](http://justinram.wordpress.com/2010/12/30/vim-ruby-refactoring-series/)
 
