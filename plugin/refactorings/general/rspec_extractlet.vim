@@ -8,7 +8,7 @@ function! ExtractIntoRspecLet()
     return
   end
   normal! dd
-  exec "?^\\s*\\<\\(describe\\|context\\)\\>"
+  exec "?^\\s*\\<\\(describe\\|context\\|feature\\)\\>"
   normal! $p
   exec 's/\v([a-z_][a-zA-Z0-9_]*) \= (.+)/let(:\1) { \2 }'
   normal V=
